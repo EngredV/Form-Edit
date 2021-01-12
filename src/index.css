@@ -1,0 +1,123 @@
+html {
+  height: 200%;
+}
+body {
+  background-color: #f8f9d2;
+  background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+  margin: 0;
+  font-size: 30px;
+  color: #8D009A;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.greeting {
+  font-size: 60px;
+  color: #3A004D;
+}
+
+.message, .message1 {
+  font-size: 14px;
+  color: #9A009A;
+}
+
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: 0.5s;
+  text-shadow: 0 0 20px #F482FF;
+  border-radius: 10px;
+  color: purple;
+  background-color: #FAD0C4;
+  background-image: linear-gradient(315deg, #FAD0C4 0%, #f1A7F1 74%);
+  font-weight: 550;
+}
+
+.btns {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  transition: 0.5s;
+  text-shadow: 0 0 20px #F482FF;
+  border-radius: 15px;
+  color: purple;
+  background-color: #FAD0C4;
+  background-image: linear-gradient(315deg, #FAD0C4 0%, #f1A7F1 74%);
+  font-weight: 550;
+  width: 1vh;
+  min-height: 1vh;
+  margin-top: 50px;
+  margin-left: -900px;
+}
+
+.btns2 {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  transition: 0.5s;
+  text-shadow: 0 0 20px #F482FF;
+  border-radius: 15px;
+  color: purple;
+  background-color: #FAD0C4;
+  background-image: linear-gradient(315deg, #FAD0C4 0%, #F1A7F1 74%);
+  font-weight: 550;
+  width: 3vw;
+  min-height: 5vh;
+  margin-top: 50px;
+  margin-right: 60px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.input {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 30vw;
+  min-height: 5vh;
+}
+
+.input2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 30px;
+  margin-top: -160px;
+  margin-left: 700px;
+  width: 30vw;
+  min-height: 5vh;
+}
